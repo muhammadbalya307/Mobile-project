@@ -9,15 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.MobileProject.nuwuser"></activity>
-        <activity android:name="com.example.MobileProject.newpass" />
-        <activity android:name="com.example.MobileProject.helpuser" />
-        <activity android:name="com.example.MobileProject.helppass" />
-        <activity android:name="com.example.MobileProject.aktivasi" />
-        <activity android:name="com.example.MobileProject.bantuan" />
-        <activity android:name="com.example.MobileProject.home" />
-        <activity android:name="com.example.MobileProject.Register" />
-        <activity android:name="com.example.MobileProject.MainActivity">
+        <activity android:name=".akun"></activity>
+        <activity android:name=".order" />
+        <activity android:name=".nuwuser" />
+        <activity android:name=".newpass" />
+        <activity android:name=".helpuser" />
+        <activity android:name=".helppass" />
+        <activity android:name=".aktivasi" />
+        <activity android:name=".bantuan" />
+        <activity android:name=".home" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
